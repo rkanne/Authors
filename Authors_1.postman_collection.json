@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "e1d2f95b-7044-476e-89f2-a1ecf3af5af2",
+		"name": "Authors_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24193942"
+	},
+	"item": [
+		{
+			"name": "GET_v1_Authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Authors",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_v1_Authors",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain; v=1.0"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; v=1.0"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":0,\"idBook\":0,\"firstName\":\"string\",\"lastName\":\"string\"}"
+				},
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Authors",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_v1_Authors_authors_books_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Authors/authors/books/1",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Authors",
+						"authors",
+						"books",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_v1_Authors_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Authors/3",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Authors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
